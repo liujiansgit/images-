@@ -1,0 +1,129 @@
+<mxfile host="app.diagrams.net" modified="2024-06-12T05:45:33.776Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="GrtQ0GiMuM-FhtvjGbvY" version="24.2.8" type="github">
+  <diagram name="第 1 页" id="iHFvfWN3LYJCkzTxdhkx">
+    <mxGraphModel dx="1982" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gjVjQ8ZyxPNbiFoZRCMu-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-2" value="tidb" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry y="220" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-5" value="polar" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-7" value="hologres" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="850" y="110" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-8" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;银行理财数仓开发（空间）&lt;/div&gt;maxcompute（dev）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="855" y="360" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gjVjQ8ZyxPNbiFoZRCMu-5" target="gjVjQ8ZyxPNbiFoZRCMu-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="265" />
+              <mxPoint x="510" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-25" value="使用dataworks数据集成单表离线同步，周期增量（1d）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gjVjQ8ZyxPNbiFoZRCMu-9">
+          <mxGeometry x="0.3652" y="-1" relative="1" as="geometry">
+            <mxPoint x="25" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-13" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;银行理财数仓开发（空间）&lt;br&gt;&lt;/div&gt;maxcompute（pro）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="850" y="560" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gjVjQ8ZyxPNbiFoZRCMu-5" target="gjVjQ8ZyxPNbiFoZRCMu-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="265" />
+              <mxPoint x="510" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-16" value="dataworks数据集成（实时）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gjVjQ8ZyxPNbiFoZRCMu-14">
+          <mxGeometry x="0.7815" y="1" relative="1" as="geometry">
+            <mxPoint x="-109" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-17" value="离线计算所需表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gjVjQ8ZyxPNbiFoZRCMu-14">
+          <mxGeometry x="-0.5373" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="gjVjQ8ZyxPNbiFoZRCMu-7" target="gjVjQ8ZyxPNbiFoZRCMu-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1170" y="155" />
+              <mxPoint x="1170" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-20" value="实时计算的结果表，通过在&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;maxcompute&lt;/span&gt;中建立hologres的外表，然后通过dataworks中odps-sql离线增量同步到mc中（每10分钟一次）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gjVjQ8ZyxPNbiFoZRCMu-19">
+          <mxGeometry x="-0.0792" y="-2" relative="1" as="geometry">
+            <mxPoint y="-82" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-22" value="197" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="220" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gjVjQ8ZyxPNbiFoZRCMu-22" target="gjVjQ8ZyxPNbiFoZRCMu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-27" value="ods层数据，使用canal实时同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gjVjQ8ZyxPNbiFoZRCMu-26">
+          <mxGeometry x="-0.1091" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="gjVjQ8ZyxPNbiFoZRCMu-7" target="gjVjQ8ZyxPNbiFoZRCMu-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="90" />
+              <mxPoint x="35" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-29" value="需要时datax抽取回tidb" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gjVjQ8ZyxPNbiFoZRCMu-28">
+          <mxGeometry x="-0.0358" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="gjVjQ8ZyxPNbiFoZRCMu-13" target="gjVjQ8ZyxPNbiFoZRCMu-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="895" y="690" />
+              <mxPoint x="35" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-31" value="需要时datax抽取回tidb" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gjVjQ8ZyxPNbiFoZRCMu-30">
+          <mxGeometry x="-0.1291" relative="1" as="geometry">
+            <mxPoint x="53" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gjVjQ8ZyxPNbiFoZRCMu-5" target="gjVjQ8ZyxPNbiFoZRCMu-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="265" />
+              <mxPoint x="510" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-33" value="实时计算所需表（目前为银行理财相关ods层表）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gjVjQ8ZyxPNbiFoZRCMu-32">
+          <mxGeometry x="-0.3231" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-34" value="使用dataworks数据集成（实时）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gjVjQ8ZyxPNbiFoZRCMu-32">
+          <mxGeometry x="0.4234" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
