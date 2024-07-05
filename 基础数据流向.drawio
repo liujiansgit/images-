@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T03:25:03.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="LZNTm-mgjDWdOnISfoaq" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-05T03:28:56.400Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="PNRKuI-WSJNmlf8vfFBT" version="24.5.3" type="github">
   <diagram name="第 1 页" id="iHFvfWN3LYJCkzTxdhkx">
     <mxGraphModel dx="2043" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,6 +7,11 @@
         <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gjVjQ8ZyxPNbiFoZRCMu-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dV_eRgZNrKqowhXcDV5U-3" value="2.全库实时ticdc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gjVjQ8ZyxPNbiFoZRCMu-3">
+          <mxGeometry x="-0.1677" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-2" value="tidb" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
@@ -50,7 +55,7 @@
             <mxPoint x="-109" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-17" value="离线计算所需表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-14" vertex="1" connectable="0">
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-17" value="4.离线计算所需表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-14" vertex="1" connectable="0">
           <mxGeometry x="-0.5373" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -74,7 +79,7 @@
         <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gjVjQ8ZyxPNbiFoZRCMu-22" target="gjVjQ8ZyxPNbiFoZRCMu-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-27" value="ods层数据，使用canal实时同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-26" vertex="1" connectable="0">
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-27" value="1.ods层数据，使用canal实时同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-26" vertex="1" connectable="0">
           <mxGeometry x="-0.1091" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -87,7 +92,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-29" value="需要时datax抽取回tidb" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-28" vertex="1" connectable="0">
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-29" value="5.需要时datax抽取回tidb" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-28" vertex="1" connectable="0">
           <mxGeometry x="-0.0358" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
@@ -100,7 +105,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-31" value="需要时datax抽取回tidb（&lt;u&gt;未验证过&lt;/u&gt;）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-30" vertex="1" connectable="0">
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-31" value="6.需要时datax抽取回tidb（&lt;u&gt;未验证过&lt;/u&gt;）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-30" vertex="1" connectable="0">
           <mxGeometry x="-0.1291" relative="1" as="geometry">
             <mxPoint x="53" as="offset" />
           </mxGeometry>
@@ -113,7 +118,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-33" value="实时计算所需表（目前为银行理财相关ods层表）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-32" vertex="1" connectable="0">
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-33" value="3.实时计算所需表（目前为银行理财相关ods层表）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-32" vertex="1" connectable="0">
           <mxGeometry x="-0.3231" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -123,15 +128,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dV_eRgZNrKqowhXcDV5U-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="gjVjQ8ZyxPNbiFoZRCMu-2" target="gjVjQ8ZyxPNbiFoZRCMu-22">
+        <mxCell id="dV_eRgZNrKqowhXcDV5U-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" target="gjVjQ8ZyxPNbiFoZRCMu-22">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="35" y="360" as="sourcePoint" />
+            <mxPoint x="-315" y="360" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="35" y="330" />
-              <mxPoint x="-315" y="330" />
+              <mxPoint x="35" y="380" />
+              <mxPoint x="-315" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dV_eRgZNrKqowhXcDV5U-2" value="部分表每10分钟datax抽取回197" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dV_eRgZNrKqowhXcDV5U-1">
+        <mxCell id="dV_eRgZNrKqowhXcDV5U-2" value="7.部分表每10分钟datax抽取回197" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dV_eRgZNrKqowhXcDV5U-1">
           <mxGeometry x="0.1561" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
