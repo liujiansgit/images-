@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T03:28:56.400Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="PNRKuI-WSJNmlf8vfFBT" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-05T06:08:08.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="UebIyPtKpJgQpccgJOfD" version="24.6.4" type="github">
   <diagram name="第 1 页" id="iHFvfWN3LYJCkzTxdhkx">
     <mxGraphModel dx="2043" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,7 +9,7 @@
             <mxPoint x="300" y="265" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dV_eRgZNrKqowhXcDV5U-3" value="2.全库实时ticdc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gjVjQ8ZyxPNbiFoZRCMu-3">
+        <mxCell id="dV_eRgZNrKqowhXcDV5U-3" value="2.全库实时ticdc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-3" vertex="1" connectable="0">
           <mxGeometry x="-0.1677" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -128,7 +128,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dV_eRgZNrKqowhXcDV5U-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" target="gjVjQ8ZyxPNbiFoZRCMu-22">
+        <mxCell id="dV_eRgZNrKqowhXcDV5U-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" parent="1" target="gjVjQ8ZyxPNbiFoZRCMu-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="35" y="360" as="sourcePoint" />
             <mxPoint x="-315" y="360" as="targetPoint" />
@@ -138,7 +138,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dV_eRgZNrKqowhXcDV5U-2" value="7.部分表每10分钟datax抽取回197" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dV_eRgZNrKqowhXcDV5U-1">
+        <mxCell id="dV_eRgZNrKqowhXcDV5U-2" value="7.部分表每10分钟datax抽取回197" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dV_eRgZNrKqowhXcDV5U-1" vertex="1" connectable="0">
           <mxGeometry x="0.1561" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
