@@ -73,8 +73,13 @@
             <mxPoint y="-82" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ughKu4st7hT9jdxvgbjc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gjVjQ8ZyxPNbiFoZRCMu-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-140" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-22" value="197" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-350" y="220" width="70" height="90" as="geometry" />
+          <mxGeometry x="-350" y="210" width="70" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gjVjQ8ZyxPNbiFoZRCMu-22" target="gjVjQ8ZyxPNbiFoZRCMu-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -142,6 +147,9 @@
           <mxGeometry x="0.1561" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ughKu4st7hT9jdxvgbjc-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;tidb灰度" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="60" width="70" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
