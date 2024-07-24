@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T06:08:08.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="UebIyPtKpJgQpccgJOfD" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.7.4">
   <diagram name="第 1 页" id="iHFvfWN3LYJCkzTxdhkx">
     <mxGraphModel dx="2043" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
         <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-2" value="tidb" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry y="220" width="70" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-5" value="polar" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;数据集成专用polar" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="300" y="220" width="70" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-7" value="hologres" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
@@ -92,7 +92,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-29" value="5.需要时datax抽取回tidb" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-28" vertex="1" connectable="0">
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-29" value="5.需要时取回tidb（单表odps）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-28" vertex="1" connectable="0">
           <mxGeometry x="-0.0358" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
@@ -105,7 +105,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-31" value="6.需要时datax抽取回tidb（&lt;u&gt;未验证过&lt;/u&gt;）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-30" vertex="1" connectable="0">
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-31" value="6.需要时取回tidb（单表odps）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-30" vertex="1" connectable="0">
           <mxGeometry x="-0.1291" relative="1" as="geometry">
             <mxPoint x="53" as="offset" />
           </mxGeometry>
