@@ -68,7 +68,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-20" value="实时计算的结果表，通过在&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;maxcompute&lt;/span&gt;中建立hologres的外表，然后通过dataworks中odps-sql离线增量同步到mc中（每10分钟一次）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-19" vertex="1" connectable="0">
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-20" value="5.实时计算的结果表，通过在&lt;span style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;maxcompute&lt;/span&gt;中建立hologres的外表，然后通过dataworks中odps-sql离线增量同步到mc中（每10分钟一次）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-19" vertex="1" connectable="0">
           <mxGeometry x="-0.0792" y="-2" relative="1" as="geometry">
             <mxPoint y="-82" as="offset" />
           </mxGeometry>
@@ -97,7 +97,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-29" value="5.需要时取回tidb（单表odps）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-28" vertex="1" connectable="0">
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-29" value="7.需要时取回tidb（单表odps）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-28" vertex="1" connectable="0">
           <mxGeometry x="-0.0358" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
@@ -143,7 +143,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dV_eRgZNrKqowhXcDV5U-2" value="7.部分表每10分钟datax抽取回197" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dV_eRgZNrKqowhXcDV5U-1" vertex="1" connectable="0">
+        <mxCell id="dV_eRgZNrKqowhXcDV5U-2" value="8.部分表每10分钟datax抽取回197" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dV_eRgZNrKqowhXcDV5U-1" vertex="1" connectable="0">
           <mxGeometry x="0.1561" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
