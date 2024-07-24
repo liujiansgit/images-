@@ -123,7 +123,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-33" value="3.实时计算所需表（目前为银行理财相关ods层表）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-32" vertex="1" connectable="0">
+        <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-33" value="3.实时计算所需表（目前为银行理财相关ods层表、部分加工层表）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gjVjQ8ZyxPNbiFoZRCMu-32" vertex="1" connectable="0">
           <mxGeometry x="-0.3231" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
