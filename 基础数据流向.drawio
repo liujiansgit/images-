@@ -157,12 +157,17 @@
         <mxCell id="p7X5QzJol9ywE3LTPKTq-44" style="edgeStyle=orthogonalEdgeStyle;shape=arrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-480" y="499.5" as="targetPoint" />
-            <mxPoint x="-390" y="499.5" as="sourcePoint" />
+            <mxPoint x="-360" y="500" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p7X5QzJol9ywE3LTPKTq-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p7X5QzJol9ywE3LTPKTq-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-315" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7X5QzJol9ywE3LTPKTq-60" value="canal同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p7X5QzJol9ywE3LTPKTq-48">
+          <mxGeometry x="-0.1587" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p7X5QzJol9ywE3LTPKTq-2" value="198" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
@@ -282,12 +287,6 @@
         </mxCell>
         <mxCell id="p7X5QzJol9ywE3LTPKTq-42" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;智慧云各资置系统库&lt;div&gt;......&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-560" y="840" width="70" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="p7X5QzJol9ywE3LTPKTq-45" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="-700" y="300" width="20" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="p7X5QzJol9ywE3LTPKTq-47" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="-380" y="440" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="p7X5QzJol9ywE3LTPKTq-50" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;各应用库&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-555" y="970" width="60" height="30" as="geometry" />
