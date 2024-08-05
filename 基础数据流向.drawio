@@ -168,6 +168,11 @@
             <mxPoint x="-360" y="500" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="p7X5QzJol9ywE3LTPKTq-70" value="canal同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p7X5QzJol9ywE3LTPKTq-44">
+          <mxGeometry x="-0.0254" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="p7X5QzJol9ywE3LTPKTq-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p7X5QzJol9ywE3LTPKTq-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-315" y="650" as="targetPoint" />
@@ -270,6 +275,11 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-570" y="434.5" as="targetPoint" />
             <mxPoint x="-680" y="434.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7X5QzJol9ywE3LTPKTq-69" value="canal同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p7X5QzJol9ywE3LTPKTq-43">
+          <mxGeometry x="-0.1948" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p7X5QzJol9ywE3LTPKTq-32" value="自动报告数据库" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
