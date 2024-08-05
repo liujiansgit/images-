@@ -23,6 +23,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="p7X5QzJol9ywE3LTPKTq-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="gjVjQ8ZyxPNbiFoZRCMu-2" target="p7X5QzJol9ywE3LTPKTq-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7X5QzJol9ywE3LTPKTq-66" value="datax抽取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p7X5QzJol9ywE3LTPKTq-62">
+          <mxGeometry x="0.3605" y="9" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="gjVjQ8ZyxPNbiFoZRCMu-2" value="tidb" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry y="220" width="70" height="90" as="geometry" />
         </mxCell>
@@ -296,6 +304,17 @@
         </mxCell>
         <mxCell id="p7X5QzJol9ywE3LTPKTq-58" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;阿里云dataworks&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1220" y="582.5" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p7X5QzJol9ywE3LTPKTq-61" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;数据服务平台polar" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-20" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p7X5QzJol9ywE3LTPKTq-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="p7X5QzJol9ywE3LTPKTq-61" target="p7X5QzJol9ywE3LTPKTq-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7X5QzJol9ywE3LTPKTq-67" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;api系统相关数据datax抽取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p7X5QzJol9ywE3LTPKTq-65">
+          <mxGeometry x="-0.0019" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
