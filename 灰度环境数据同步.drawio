@@ -92,7 +92,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7TIMydjO0EbAiF-y4B0n-27" value="算法及调度所需部分表回写mysql" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7TIMydjO0EbAiF-y4B0n-26">
+        <mxCell id="7TIMydjO0EbAiF-y4B0n-27" value="&lt;b&gt;算法及调度&lt;/b&gt;所需部分表回写mysql" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7TIMydjO0EbAiF-y4B0n-26">
           <mxGeometry x="-0.0222" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
