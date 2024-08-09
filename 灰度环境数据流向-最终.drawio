@@ -1,9 +1,94 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
   <diagram name="第 1 页" id="xe04I7Fmt38TwpGQB3Si">
-    <mxGraphModel>
+    <mxGraphModel dx="1216" dy="1834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-1" value="156 3700（mysql）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="240" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;156 3306&lt;br&gt;（数据集成-mysql库）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="800" y="240" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-3" value="算法" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="72.5" y="450" width="105" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z9u1Hb-Vqn5OvXWLYThj-3" target="Z9u1Hb-Vqn5OvXWLYThj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-5" value="ts层数据写入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z9u1Hb-Vqn5OvXWLYThj-4">
+          <mxGeometry x="-0.0116" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-6" value="灰度tidb" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="379" y="240" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;" edge="1" parent="1" source="Z9u1Hb-Vqn5OvXWLYThj-1" target="Z9u1Hb-Vqn5OvXWLYThj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-8" value="ts层数据canal同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z9u1Hb-Vqn5OvXWLYThj-7">
+          <mxGeometry x="-0.026" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z9u1Hb-Vqn5OvXWLYThj-6" target="Z9u1Hb-Vqn5OvXWLYThj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-10" value="ticdc同步（质控统计相关表、数据日志所需ods表）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z9u1Hb-Vqn5OvXWLYThj-9">
+          <mxGeometry x="-0.0465" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-11" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;dataworks-holo（metadata_gray库）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="240" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;" edge="1" parent="1" source="Z9u1Hb-Vqn5OvXWLYThj-2" target="Z9u1Hb-Vqn5OvXWLYThj-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-13" value="质控统计数据canal同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z9u1Hb-Vqn5OvXWLYThj-12">
+          <mxGeometry x="0.0098" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-14" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;正式环境198" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;" edge="1" parent="1" source="Z9u1Hb-Vqn5OvXWLYThj-14" target="Z9u1Hb-Vqn5OvXWLYThj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-18" value="ts层数据表（insert ignore、update）-canal同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z9u1Hb-Vqn5OvXWLYThj-17">
+          <mxGeometry x="0.4923" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z9u1Hb-Vqn5OvXWLYThj-2" target="Z9u1Hb-Vqn5OvXWLYThj-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="835" y="360" />
+              <mxPoint x="414" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-20" value="canal同步-base-data-pg-log-gray，数据变更日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z9u1Hb-Vqn5OvXWLYThj-19">
+          <mxGeometry x="0.0881" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.85;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;" edge="1" parent="1" target="Z9u1Hb-Vqn5OvXWLYThj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="410" y="410" />
+              <mxPoint x="160" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z9u1Hb-Vqn5OvXWLYThj-22" value="&lt;b&gt;算法及调度&lt;/b&gt;所需部分表回写mysql" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Z9u1Hb-Vqn5OvXWLYThj-21">
+          <mxGeometry x="-0.0222" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
